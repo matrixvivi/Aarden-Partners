@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Team</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.png" />
+  </head>
+  <body></body>
+</html>
+  <body>
+    <header id="header" style="background: #2d3639">
+        <img class="img1" src="Screenshot 2021-01-11 at 11.15.07 AM.png" href="index.html"></img>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <div class="menu-panel" style="background: #7b947f;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">credentials</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="investments.html">investments</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 팀 사진 및 이름표 -->
+    <section class="slide">
+        <h1 style="margin-left: 10vw; margin-top: 23vh"><span>Team</span></h1>
+        <h1 style="font-size: 2.25rem; margin-left: -6vw; margin-top: 184vh; transform-origin: top left;transform: rotate(-90deg)"><span>Senior officials</span></h1>
+        <div class="tcontainer">
+            <div class="flex-grid1">
+                <div class="boxface" style="background-image:url(노강진.png)"></div>
+                <div class="boxface" style="background-image:url(김우선.png)"></div>
+                <div class="boxface" style="background-image:url(김예솔.png)"></div>
+                <!-- ^ 위에 있는 코드를 복사 붙이고 "url(_______)"을 사진 파일 이름으로 바꾸세요 -->
+            </div>
+            <div class="flex-grid1">
+                <div class="boxface2">
+                    <p>Kevin Rho<br><span>  (노강진)</span></p>
+                    <a>부장 <br>(아든파트너스 소속)</a>
+                </div>
+                <div class="boxface2">
+                    <p>Woosun Kim<br><span>  (김우선)</span></p>
+                    <a>과장 <br>(아든파트너스 소속)</a>
+                </div>
+                <div class="boxface2">
+                    <p>Yesol Kim<br><span>  (김예솔)</span></p>
+                    <a>과장 <br>(아든파트너스 소속)</a>
+                </div>
+                <!-- ^ 위에 있는 "div boxface2" 에 안에 있는 코드를 복사 붙이고 이름이랑 직위를 써주세요 -->
+            </div>
+            <div class="flex-grid1">
+                <div class="boxface" style="background-image: url(신광현.png)"></div>
+
+            </div>
+            <div class="flex-grid1">
+                <div class="boxface2">
+                    <p>Matthew Shin<br><span>  (신광현)</span></p>
+                    <a style="bottom: -225px;">전무 <br>(아든파트너스 소속)</a>
+                </div>
+            </div>
+            <div class="flex-grid1">
+                <div class="boxface" style="margin-top: 70px; background-image: url(구본석.png) !important;"></div>
+                <div class="boxface" style="margin-top:70px"></div>
+            </div>
+            <div class="flex-grid1">
+                <div class="boxface2">
+                    <p>Peter Koo<br><span>  (구본석)</span></p>
+                    <a style="bottom: -760px;">아든파트너스 대표<br>/Partner</a>
+                </div>
+                <div class="boxface2">
+                    <p>Stephan Shin<br><span>  (신동환)</span></p>
+                    <a style="bottom: -760px;"">아든파트너스 대표<br>/Partner</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <img src="Screenshot 2021-01-11 at 11.15.07 AM.png" class="img1 bright" style="filter:brightness(0) invert(1)">
+            <h1>Get in Touch</h1>
+            <div class="footertext" style="margin-right: 22.8vw; right: 0">
+                <a>@aarden.co.kr</a>
+                <a>+82 10 9932 2095</a>
+            </div>
+            <h1 style="margin-right: 28vw">Resources and Links</h1>
+            <div class="footertext">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="investments.html">investments</a>
+                <a href="contact.html">contact</a>
+            </div>
+            <small style="left:-15%">&copy; Copyright 2018, Aarden Partners Co., Ltd.</small>
+            <small style="left:-15%">Icons made by <span href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</span> from <span href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</span></small>  
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script>$(document).ready(function() {
+        $(".menu-btn").click(function() {
+          $(".menu-btn").toggleClass("Diam");
+          $(".menu-panel").toggleClass("showPanel");
+        });
+      });</script>
+  
